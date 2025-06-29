@@ -1,4 +1,5 @@
 // Code your design here
+`include "parameters.vh"
 `include "B2G_8bit.v"
 `include "G2B_8bit.v"
 `include "DFS.v"
