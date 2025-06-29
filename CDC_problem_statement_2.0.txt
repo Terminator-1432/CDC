@@ -1,0 +1,4 @@
+Problem: Design a Valid-Credit protocol based interface between the write module and CDC Fifo.
+
+Description:
+The write module should have the initial outstanding credits of the CDC Fifo. Whenever the write module sends a data to CDC fifo, it will lose one credit. Whenever the read module consumes a data from the fifo then the CDC will return one credit to the write module.

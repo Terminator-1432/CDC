@@ -1,3 +1,0 @@
-Problem: Design a module which can do CDC (Clock Domain crossing) between 2 clocks. 
-Description: Basically, consider there is one module which works on clk1 and another module which works on clk2. You want to send data from module1 to module2. But since they are in different clocks you can't just directly send it (Check why not?). There needs to some intermediate module which uses the CDC techniques to achieve this. You need to design this module.
-Hint: Asynchronous FIFO.
